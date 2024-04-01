@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    position: relative;
+}
+main{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 500px;
+    height: 400px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+main form{
+    position: relative;
+}
+main form input{
+    margin: 15px;
+    border:none;
+    outline: none;
+    padding:10px 5px;
+    width: 350px;
+}
+main form select{
+    position: absolute;
+    top: 15px;
+    left: 370px;
+    border: 1px solid brown;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 20px;
+    outline: none;
+    background-color: black ;
+    color: white;
+    width: 100px;
+    height: 70px;
+    font-size: x-large;
+}
+main form button{
+    margin: 15px;
+    border:none;
+    border-radius: 5px;
+    outline:none;
+    width:480px;
+    padding: 15px 10px;
+    font-size: x-large;
+    background-color: brown;
+    color: aliceblue;
+}
+
+.calc-error{
+   position:absolute;
+   bottom:430px;
+   padding: 10px;
+   background-color: orange;
+   color: brown;
+   width: 150px;
+   height: 40px;
+}
+
+.display {
+    color: green;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: inset -5px -5px 12px rgba(0, 0, 0, 0.7),
+                      5px 5px 12px rgba(97, 97, 97, 0.5);
+    font-size: xx-large;
+    background-color: white;
+    width:400px;
+}
